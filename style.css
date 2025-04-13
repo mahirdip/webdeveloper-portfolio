@@ -189,7 +189,24 @@ main section {
 /* Footer Styles */
 footer{
     display: flex;
+    gap: 100px;
     background: #FFF8F3;
     padding: 130px 230px;
     margin-top: 100px;
+}
+.footer-colum{
+    width: 50%;
+}
+.social-links a{
+    margin-right: 25px;
+}
+.contact input[type="text"], .contact input[type="email"], textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 350px 18px 18px;
+    color: #757575;
+    border: none;
+    border-radius: 5px;
+    background: #FFF;
+    width: 30%;
 }
